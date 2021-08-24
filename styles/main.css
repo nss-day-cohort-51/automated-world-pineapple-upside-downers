@@ -53,6 +53,7 @@ header h1 {
 }
 
 .header-content {
+    padding-top: 36px;
     display: flex;
     flex-flow: row;
 }
@@ -63,10 +64,15 @@ header h1 {
     width: 80vw;
 }
 nav ul {
+    width: 100%;
     display: flex;
     flex-flow: row;
     list-style-type: none;
     justify-content: center;
+    background-color: #001b36;
+    position: fixed;
+    margin-top: 0;
+    z-index: 1;
 }
 
 ul li {
@@ -98,6 +104,7 @@ li a:hover {
 
 .quote {
     height: 400px;
+
     /* margin-bottom: 30px; */
 }
 
@@ -117,25 +124,69 @@ h3 {
     padding-top: 30px;
     margin-bottom: 30px;
     text-align: center;
-    font-size: 30px;
-    color: white;
+    font-size: 60px;
+    color: #ff8576;
+    writing-mode: sideways-rl;
 }
-.ethiopia {
-    height: 1800px;
+.country {
+    height: 2500px;
     background: #58c2f1;
 }
 
-.ethiopia__landmarks {
-    width: 95%;
-    margin: auto;
-    height: 300px;
+.country__header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.country__header p {
+    width: 30%;
+    font-size: 30px;
+}
+
+.country__header h3 {
+    margin-left: 20%;
+}
+.country__image {
+    height: 500px;
+    width: 100%;
+    background-color: grey;
+    margin-bottom: 20px;
+    border-top: #0084f8 3px solid;
+    border-bottom: #0084f8 3px solid;
+}
+
+.card-set {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    height: 30%;
+    margin-inline: 15%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.card-set__label {
+    writing-mode: tb-rl;
+    transform: rotate(190deg);
+    text-align: center;
+    font-style: italic;
+}
+
+.card {
+    width: 24%;
+    /* margin: auto; */
+    height: 550px;
     border-radius: 15px;
+    border: solid 3px #ff8576;
     background-color: white;
 }
 
-.france {
-    height: 1800px;
+.card:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.75);
 }
+
 /* COUNTRY SECTION  */
 
 /* FOOTER SECTION  */
@@ -149,5 +200,5 @@ h3 {
 .horizontal-line {
     width: 100%;
     height: 4px; /* change this to make line thicker */
-    background-color: black;
+    background-color: #0084f8;
 }
