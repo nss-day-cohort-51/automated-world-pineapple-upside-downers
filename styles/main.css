@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&family=Raleway:wght@400;700&display=swap");
+
+/* COLORS  */
+/* #B100 */
+/* D400 */
 
 /*Typography
 --------------------------------------------------------------*/
@@ -7,13 +12,125 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-family: "Comfortaa", Arial, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
+  color: #404040;
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Patua One", serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", serif;
   letter-spacing: 2px;
+}
+
+/* GLOBAL  */
+
+body {
+  background-color: #f0f9f5;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* HEADER SECTION  */
+header {
+  background-color: #001b36;
+  height: 200px;
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+  font-size: 2.75em;
+}
+
+.header-content {
+  display: flex;
+  flex-flow: row;
+}
+
+.nav-title {
+  display: flex;
+  flex-flow: column;
+  width: 80vw;
+}
+nav ul {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+  justify-content: center;
+}
+
+ul li {
+  padding: 0px 15px;
+  color: white;
+  font-size: 1.75em;
+}
+
+li a:link {
+  text-decoration: none;
+  color: white;
+}
+li a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  /* text-shadow: black; */
+}
+
+.logo {
+  width: 200px;
+  height: 198px;
+  background-color: white;
+}
+
+/* QUOTE SECTION  */
+
+.quote {
+  height: 300px;
+}
+
+.quote span {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  margin: auto;
+  padding-top: 50px;
+  font-size: 2em;
+  font-style: italic;
+}
+/* MAIN SECTION */
+
+.ethiopia {
+  height: 1800px;
+  background: #58c2f1;
+}
+
+.ethiopia__landmarks {
+  width: 95%;
+  margin: auto;
+  height: 300px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.france {
+  height: 1800px;
+}
+/* COUNTRY SECTION  */
+
+/* FOOTER SECTION  */
+
+.copyright {
+  text-align: center;
 }

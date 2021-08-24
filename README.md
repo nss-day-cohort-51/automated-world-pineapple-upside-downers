@@ -61,14 +61,15 @@ touch scripts/morocco/celebrities/CelebritiesDataProvider.js
 1. You must do all work on a feature branch, never on `main`.
 1. Validate your HTML. Use a tool: [Validator](https://validator.w3.org/)
 
-
 ## User Experience
 
 1. A [style guide](AutoWorld-Styles.pdf) has been provided. Using the style guide, your team must decide on a consistent experience across all pages. Fonts/sizes, color scheme, layout, and structure.
-![Hello World Layout](./hello-world-wireframe.png)
+   ![Hello World Layout](./hello-world-wireframe.png)
 
 ## Stretch Goal
+
 1. Using [Sharethrough](https://headlines.sharethrough.com/), analyze your headline with the country name. Make adjustments to the copy to make it more engaging.
 
 ## More Stretch Goal
+
 1. Create a SPA.
