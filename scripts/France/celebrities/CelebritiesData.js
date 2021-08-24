@@ -1,7 +1,7 @@
 celebrityCollection = [
     {
         name: "blank",
-        population: undefined,
+        occupation: "undefined",
         description: "Description here",
         externalLink: "example.html",
         image: "example.jpg",
