@@ -238,17 +238,34 @@ h3 {
     background-color: #0084f8;
 }
 
-/* UNUSED */
-.parallax {
-    /* The image used */
-    background-image: url("images/mar.jpg");
+/* CARD */
+.card {
+    background-color: lightcyan;
+    margin: 0.5em;
+    max-width: 200px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
 
-    /* Set a specific height */
-    min-height: 500px;
+.card ul {
+    list-style-type: none;
+    padding: 0.5em;
+    margin: 0.2em;
+    font-size: 0.8em;
+}
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.card:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.75);
+}
+
+.card-image {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+
+.card-name {
+    text-align: center;
 }
