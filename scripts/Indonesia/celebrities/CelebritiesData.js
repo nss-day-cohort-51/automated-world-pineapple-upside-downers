@@ -5,23 +5,23 @@ export const returnCelebrityCollection = () => {
 celebrityCollection = [
     {
         name: "Eddie Van Halen",
-        ocuupation: "Musician",
+        ocupation: "Musician",
         description: "Description here",
         externalLink: "example.html",
-        image: "example.jpg",
+        image: "/images/Edie-Van-Halen.jpg",
     },
     {
         name: "Michelle Branch",
-        ocuupation: "Musician",
+        ocupation: "Musician",
         description: "Description here",
         externalLink: "example.html",
-        image: "example.jpg",
+        image: "images/michelle-branch.jpg",
     },
     {
         name: "Mark-Paul Gosselaar",
-        ocuupation: "Actor",
+        ocupation: "Actor",
         description: "Description here",
         externalLink: "example.html",
-        image: "example.jpg",
+        image: "images/Mark-Paul-G.jpg",
     },
 ];

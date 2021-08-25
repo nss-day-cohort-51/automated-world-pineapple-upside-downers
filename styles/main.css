@@ -5,6 +5,14 @@
 /* #B100 */
 /* D400 */
 
+/* Tint function DOESN"T WORK*/
+/* @function tint($color, $percentage) {
+    @return mix(white, $color, $percentage);
+}
+@function shade($color, $percentage) {
+    @return mix(black, $color, $percentage);
+} */
+
 /*Typography
 --------------------------------------------------------------*/
 body,
@@ -134,18 +142,17 @@ h3 {
 }
 
 .country__header {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
     margin: 0;
-    padding: 2px 400px 0 50px;
+    padding: 2px 500px 0 50px;
     position: -webkit-sticky;
     position: sticky;
     top: -1px;
-    background: #58c2f1;
+    /* background: #58c2f1; */
+    background: rgba(0, 132, 248, 0.8);
     border-bottom: 3px solid #0084f8;
     padding-top: 50px;
     z-index: 1;
+    text-align: left;
 }
 
 .country__quote p {
@@ -161,8 +168,9 @@ h3 {
     border-bottom: 1px solid #989ea4;
     border-top: 1px solid #717d85;
     color: #fff; */
+    text-align: left;
     margin: 0;
-    padding: 2px 0 0 12px;
+    padding: 2px 0 0 60px;
     position: -webkit-sticky;
     position: sticky;
     top: -1px;
@@ -170,10 +178,16 @@ h3 {
 .country__image {
     height: 500px;
     width: 100%;
-    background-color: grey;
+    /* background-color: grey; */
+    background: url(/images/mar.jpg);
+
     margin-bottom: 20px;
     border-top: #0084f8 3px solid;
     border-bottom: #0084f8 3px solid;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card-set {
@@ -224,6 +238,7 @@ h3 {
     background-color: #0084f8;
 }
 
+/* UNUSED */
 .parallax {
     /* The image used */
     background-image: url("images/mar.jpg");
