@@ -1,19 +1,14 @@
-
-
 export const getCelebrity = () => {
-    return celebrityCollection
-}
+    return celebrityCollection;
+};
 
-
-
-celebrityCollection = [
+const celebrityCollection = [
     {
         name: "Haile Selassie I",
         population: undefined,
         description: "was the most Famous Leader of Ethiopia",
         externalLink: "example.html",
         image: "Haile.jpg",
-
     },
     {
         name: "Queen of Sheba",
@@ -29,5 +24,5 @@ celebrityCollection = [
         description: "Olympic athlete",
         externalLink: "example.html",
         image: "Oly.jpg",
-    }
+    },
 ];
