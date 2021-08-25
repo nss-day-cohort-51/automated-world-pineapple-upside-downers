@@ -1,0 +1,159 @@
+[33mcommit c020761b5cdf141d16c9c9a0fb3f95a99663db76[m[33m ([m[1;36mHEAD -> [m[1;32mnew-cm[m[33m, [m[1;31morigin/new-cm[m[33m, [m[1;32msafety-cm[m[33m)[m
+Author: Colin Miller <colinraymiller@gmail.com>
+Date:   Wed Aug 25 12:22:43 2021 -0500
+
+    added js
+
+[33mcommit 14415e29b68d30aced7cd7fe8714b7e7e4a109c5[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/js-cm[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mstickyCss-cm[m[33m, [m[1;32mjs-cm[m[33m)[m
+Merge: 8b15752 8c9fa9f
+Author: colinrmiller <48324912+colinrmiller@users.noreply.github.com>
+Date:   Wed Aug 25 09:45:02 2021 -0500
+
+    Merge pull request #10 from nss-day-cohort-51/stickyCss-cm
+    
+    Sticky css cm
+
+[33mcommit 8b15752e324ddb3edf9e6a12b8c4f323d75fd48b[m
+Merge: de7c10a 2dd8f97
+Author: colinrmiller <48324912+colinrmiller@users.noreply.github.com>
+Date:   Wed Aug 25 09:25:24 2021 -0500
+
+    Merge pull request #9 from nss-day-cohort-51/update-html-cm
+    
+    Update html cm
+
+[33mcommit 8c9fa9fe313f5bf8e9cf2397b3df979b57a351ee[m[33m ([m[1;31morigin/stickyCss-cm[m[33m)[m
+Author: Colin Miller <colinraymiller@gmail.com>
+Date:   Wed Aug 25 09:20:59 2021 -0500
+
+    foramtting
+
+[33mcommit de7226b20c7b2137bc253134d5c23ce452582045[m
+Author: Colin Miller <colinraymiller@gmail.com>
+Date:   Wed Aug 25 07:46:01 2021 -0500
+
+    html formatting
+
+[33mcommit 2dd8f97b5888c2668d8b0dd8a11eb584327e1063[m[33m ([m[1;31morigin/update-html-cm[m[33m, [m[1;32mupdate-html-cm[m[33m)[m
+Author: Colin Miller <colinraymiller@gmail.com>
+Date:   Tue Aug 24 18:28:30 2021 -0500
+
+    html formatting
+
+[33mcommit 16e2d8b4859e22d1f8e02d6a6ee261c13f78e839[m
+Author: Colin Miller <colinraymiller@gmail.com>
+Date:   Tue Aug 24 17:27:31 2021 -0500
+
+    html update
+
+[33mcommit 9ea9e76b405fa1c1e44bb2d9696bf3cf47ce2ea1[m[33m ([m[1;31morigin/ireland-cr[m[33m, [m[1;32mindonesia-cm[m[33m)[m
+Author: Colby Ryan <colbyr.ryan@gmail.com>
+Date:   Tue Aug 24 16:05:35 2021 -0500
+
+    Started building the HTML and styling CSS
+
+[33mcommit de7c10a3e0a8df2473e3b8fe6eafb7b7022f4796[m
+Merge: 406cb30 2847da6
+Author: colinrmiller <48324912+colinrmiller@users.noreply.github.com>
+Date:   Tue Aug 24 13:59:09 2021 -0500
+
+    Merge pull request #7 from nss-day-cohort-51/indonesia-cm
+    
+    Indonesia cm
+
+[33mcommit 2847da6053cb36a254aaa3faa65b2bb60ab96868[m[33m ([m[1;31morigin/indonesia-cm[m[33m)[m
+Merge: f02b6ab 406cb30
+Author: Colin Miller <colinraymiller@gmail.com>
+Date:   Tue Aug 24 13:55:06 2021 -0500
+
+    deleted ListFunction
+
+[33mcommit 406cb309d2a22a6ec2a05181d678c50c3f5b5f72[m
+Merge: 87b211c 43eb02d
+Author: Gerson Diketama <70174257+GersonDiketama@users.noreply.github.com>
+Date:   Tue Aug 24 13:52:04 2021 -0500
+
+    Merge pull request #8 from nss-day-cohort-51/first-part-GMD
+    
+    added objects on France Folder
+
+[33mcommit 43eb02dc1d57ce3b914d66c9b38ca5dfba371cdc[m[33m ([m[1;31morigin/first-part-GMD[m[33m)[m
+Author: GersonGmd <gersondiketama@yahoo.com>
+Date:   Tue Aug 24 13:49:31 2021 -0500
+
+    updated celebrities info
+
+[33mcommit df07a6d2a213a9ae04abab08b6baac473e9042ce[m[33m ([m[1;32mfirst-part-GMD[m[33m)[m
+Author: GersonGmd <gersondiketama@yahoo.com>
+Date:   Tue Aug 24 13:43:24 2021 -0500
+
+    added objects on France Folder
+
+[33mcommit f02b6ab524c49c85bdfc2a815d6324068d7d96cc[m
+Author: Colin Miller <colinraymiller@gmail.com>
+Date:   Tue Aug 24 13:43:13 2021 -0500
+
+    updated ListItems.js
+
+[33mcommit 9bece6e84e960c71e613dc65a61613e1efd42da7[m
+Author: Colin Miller <colinraymiller@gmail.com>
+Date:   Tue Aug 24 13:42:52 2021 -0500
+
+    updated ListItems.js
+
+[33mcommit 87b211ca821589fe93920495356504ac2e238e21[m
+Merge: 62fb960 45263dd
+Author: tessema2021 <83505843+tessema2021@users.noreply.github.com>
+Date:   Tue Aug 24 13:38:49 2021 -0500
+
+    Merge pull request #6 from nss-day-cohort-51/travel-project
+    
+    some update
+
+[33mcommit 62fb96095876b5f960539ae1bc7d27b35f20d6f1[m
+Merge: 505ccbb d78ce52
+Author: colbyryan <85581256+colbyryan@users.noreply.github.com>
+Date:   Tue Aug 24 13:36:39 2021 -0500
+
+    Merge pull request #5 from nss-day-cohort-51/ireland-cr
+    
+    Ireland cr
+
+[33mcommit 45263dd41fd1307957f47d580b74e26a1ecad7ea[m
+Author: tessema2021 <ninafuchere@gmail.com>
+Date:   Tue Aug 24 13:32:31 2021 -0500
+
+    some update
+
+[33mcommit d78ce52116749b98b95143cdb5bacb21a806d066[m
+Author: Colby Ryan <colbyr.ryan@gmail.com>
+Date:   Tue Aug 24 12:06:56 2021 -0500
+
+    Finished js data entries
+
+[33mcommit c9e2106352c5b2bac7821f841e861f09d32ea66c[m[33m ([m[1;31morigin/cr_ireland[m[33m)[m
+Author: Colby Ryan <colbyr.ryan@gmail.com>
+Date:   Tue Aug 24 11:33:51 2021 -0500
+
+    initial commit
+
+[33mcommit 505ccbbc0839055b3275488685155b7901f51a3c[m
+Merge: 4f7ef5e b6a8883
+Author: Gerson Diketama <70174257+GersonDiketama@users.noreply.github.com>
+Date:   Tue Aug 24 10:20:16 2021 -0500
+
+    Merge pull request #1 from nss-day-cohort-51/initial-cm
+    
+    initial commit
+
+[33mcommit b6a888393803f75a28c70eafea5910417582af7a[m[33m ([m[1;31morigin/initial-cm[m[33m, [m[1;32mmexico-cm[m[33m, [m[1;32minitial-cm[m[33m)[m
+Author: Colin Miller <colinraymiller@gmail.com>
+Date:   Tue Aug 24 10:18:40 2021 -0500
+
+    initial commit
+
+[33mcommit 4f7ef5e6f827de74b9b94deb3e01985427b06702[m[33m ([m[1;32mmain[m[33m)[m
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Tue Aug 24 14:50:16 2021 +0000
+
+    Initial commit
