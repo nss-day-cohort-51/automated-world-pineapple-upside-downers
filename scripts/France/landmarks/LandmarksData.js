@@ -6,4 +6,4 @@ const landmarkCollection = [
         externalLink: "example.html",
         image: "example.jpg",
     },
-];
+]

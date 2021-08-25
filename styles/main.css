@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&family=Raleway:wght@400;700&display=swap");
+
+/* COLORS  */
+/* #B100 */
+/* D400 */
 
 /*Typography
 --------------------------------------------------------------*/
@@ -7,13 +12,193 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-family: "Comfortaa", Arial, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
+    color: #404040;
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Patua One", serif;
-  letter-spacing: 2px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Open Sans", serif;
+    letter-spacing: 2px;
+}
+
+/* GLOBAL  */
+
+body {
+    background-color: #f0f9f5;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* HEADER SECTION  */
+header {
+    background-color: #001b36;
+    height: 200px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.75em;
+}
+
+.header-content {
+    padding-top: 36px;
+    display: flex;
+    flex-flow: row;
+}
+
+.nav-title {
+    display: flex;
+    flex-flow: column;
+    width: 80vw;
+}
+nav ul {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
+    justify-content: center;
+    background-color: #001b36;
+    position: fixed;
+    margin-top: 0;
+    z-index: 1;
+}
+
+ul li {
+    padding: 0px 15px;
+    color: white;
+    font-size: 1.75em;
+}
+
+li a:link {
+    text-decoration: none;
+    color: white;
+}
+li a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    /* text-shadow: black; */
+}
+
+.logo {
+    width: 200px;
+    height: 198px;
+    background-color: white;
+}
+
+/* QUOTE SECTION  */
+
+.quote {
+    height: 400px;
+
+    /* margin-bottom: 30px; */
+}
+
+.quote span {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    margin: auto;
+    padding-top: 50px;
+    font-size: 2em;
+    font-style: italic;
+}
+/* MAIN SECTION */
+
+h3 {
+    margin: 0;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 60px;
+    color: #ff8576;
+    writing-mode: sideways-rl;
+}
+.country {
+    height: 2500px;
+    background: #58c2f1;
+}
+
+.country__header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.country__header p {
+    width: 30%;
+    font-size: 30px;
+}
+
+.country__header h3 {
+    margin-left: 20%;
+}
+.country__image {
+    height: 500px;
+    width: 100%;
+    background-color: grey;
+    margin-bottom: 20px;
+    border-top: #0084f8 3px solid;
+    border-bottom: #0084f8 3px solid;
+}
+
+.card-set {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    height: 30%;
+    margin-inline: 15%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.card-set__label {
+    writing-mode: tb-rl;
+    transform: rotate(190deg);
+    text-align: center;
+    font-style: italic;
+}
+
+.card {
+    width: 24%;
+    /* margin: auto; */
+    height: 550px;
+    border-radius: 15px;
+    border: solid 3px #ff8576;
+    background-color: white;
+}
+
+.card:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.75);
+}
+
+/* COUNTRY SECTION  */
+
+/* FOOTER SECTION  */
+
+.copyright {
+    text-align: center;
+}
+
+/* MISCELANEOUS */
+
+.horizontal-line {
+    width: 100%;
+    height: 4px; /* change this to make line thicker */
+    background-color: #0084f8;
 }
