@@ -72,7 +72,7 @@ nav ul {
     background-color: #001b36;
     position: fixed;
     margin-top: 0;
-    z-index: 1;
+    z-index: 3;
 }
 
 ul li {
@@ -129,7 +129,7 @@ h3 {
     writing-mode: sideways-rl;
 }
 .country {
-    height: 2500px;
+    height: 2700px;
     background: #58c2f1;
 }
 
@@ -137,15 +137,35 @@ h3 {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
+    margin: 0;
+    padding: 2px 400px 0 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+    background: #58c2f1;
+    border-bottom: 3px solid #0084f8;
+    padding-top: 50px;
+    z-index: 1;
 }
 
-.country__header p {
-    width: 30%;
-    font-size: 30px;
+.country__quote p {
+    color: white;
+    text-align: center;
+    /* width: %; */
+    font-size: 20px;
 }
 
 .country__header h3 {
     margin-left: 20%;
+    /* background: #b8c1c8;
+    border-bottom: 1px solid #989ea4;
+    border-top: 1px solid #717d85;
+    color: #fff; */
+    margin: 0;
+    padding: 2px 0 0 12px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
 }
 .country__image {
     height: 500px;
@@ -180,6 +200,7 @@ h3 {
     border-radius: 15px;
     border: solid 3px #ff8576;
     background-color: white;
+    animation: 4s swivel infinite;
 }
 
 .card:hover {
@@ -201,4 +222,18 @@ h3 {
     width: 100%;
     height: 4px; /* change this to make line thicker */
     background-color: #0084f8;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("images/mar.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
