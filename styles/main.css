@@ -20,10 +20,10 @@ button,
 input,
 select,
 textarea {
-    color: #404040;
-    font-family: "Raleway", Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
+  color: #404040;
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 h1,
@@ -32,210 +32,231 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Open Sans", serif;
-    letter-spacing: 2px;
+  font-family: "Open Sans", serif;
+  letter-spacing: 2px;
 }
 
 /* GLOBAL  */
 
 body {
-    background-color: #f0f9f5;
-    margin: 0;
-    padding: 0;
+  background-color: #f0f9f5;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* HEADER SECTION  */
 header {
-    background-color: #001b36;
-    height: 250px;
+  background-color: #001b36;
+  height: 250px;
 }
 
 header h1 {
-    padding-top: 25px;
-    text-align: center;
-    color: white;
-    font-size: 2.75em;
+  padding-top: 25px;
+  text-align: center;
+  color: white;
+  font-size: 2.75em;
 }
 
 .header-content {
-    padding-top: 36px;
-    display: flex;
-    flex-flow: row;
+  padding-top: 36px;
+  display: flex;
+  flex-flow: row;
 }
 
 .nav-title {
-    display: flex;
-    flex-flow: column;
-    width: 80vw;
+  display: flex;
+  flex-flow: column;
+  width: 80vw;
 }
 nav ul {
-    width: 100%;
-    display: flex;
-    flex-flow: row;
-    list-style-type: none;
-    justify-content: center;
-    background-color: #001b36;
-    position: fixed;
-    margin-top: 0;
-    z-index: 3;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+  justify-content: center;
+  background-color: #001b36;
+  position: fixed;
+  margin-top: 0;
+  z-index: 3;
 }
 
 ul li {
-    padding: 0px 15px;
-    color: white;
-    font-size: 1.75em;
+  padding: 0px 15px;
+  color: white;
+  font-size: 1.75em;
 }
 
 li a:link {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 li a:visited {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  /* text-shadow: black; */
 }
 
 .logo img {
-    width: 200px;
-    height: 198px;
+  width: 200px;
+  height: 198px;
 }
 
 /* QUOTE SECTION  */
 .quote {
-    height: 325px;
-    background-image: url(/images/vacation.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 1px;
-    padding-top: 35px;
-    padding-bottom: 55px;
+  height: 325px;
+  background-image: url(/images/vacation.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 1px;
+  padding-top: 35px;
+  padding-bottom: 55px;
 }
 
 .quote span {
-    display: flex;
-    justify-content: center;
-    width: 25%;
-    margin: auto;
-    padding: 25px;
-    font-size: 2em;
-    font-style: italic;
-    background-color: white;
-    border-radius: 15px;
-    border: #001b36 2px solid;
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  margin: auto;
+  padding: 25px;
+  font-size: 2em;
+  font-style: italic;
+  background-color: white;
+  border-radius: 15px;
+  border: #001b36 2px solid;
 }
 /* MAIN SECTION */
 
 h3 {
-    margin: 0;
-    padding-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-    font-size: 60px;
-    color: #ff8576;
-    writing-mode: sideways-rl;
+  margin: 0;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 60px;
+  color: #ff8576;
+  writing-mode: sideways-rl;
 }
 .country {
-    height: 2750px;
-    background: #58c2f1;
+  height: 2750px;
+  background: #58c2f1;
 }
 
 .country__header {
-    margin: 0;
-    padding: 2px 500px 0 50px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: -1px;
-    /* background: #58c2f1; */
-    background: rgba(0, 132, 248);
-    border-bottom: 3px solid #0084f8;
-    padding-top: 50px;
-    z-index: 1;
-    text-align: left;
+  margin: 0;
+  padding: 2px 500px 0 50px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  /* background: #58c2f1; */
+  background: rgba(0, 132, 248);
+  border-bottom: 3px solid #0084f8;
+  padding-top: 50px;
+  z-index: 1;
+  text-align: left;
 }
 
 .country__quote p {
-    color: white;
-    text-align: center;
-    /* width: %; */
-    font-size: 20px;
+  color: white;
+  text-align: center;
+  /* width: %; */
+  font-size: 20px;
 }
 
 .country__header h3 {
-    margin-left: 20%;
-    /* background: #b8c1c8;
+  margin-left: 20%;
+  /* background: #b8c1c8;
     border-bottom: 1px solid #989ea4;
     border-top: 1px solid #717d85;
     color: #fff; */
-    text-align: left;
-    margin: 0;
-    padding: 2px 0 0 60px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: -1px;
+  text-align: left;
+  margin: 0;
+  padding: 2px 0 0 60px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
 }
-
 .country__image--indonesia {
-    height: 500px;
-    width: 100%;
-    /* background-color: grey; */
-    background: url(/images/Indonesia.jpg);
-/*       background: url(/images/ethiopia.jpg); */
+  height: 500px;
+  width: 100%;
+  /* background-color: grey; */
+  background: url(/images/Indonesia.jpg);
 
-    margin-bottom: 20px;
-    border-top: #0084f8 3px solid;
-    border-bottom: #0084f8 3px solid;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  margin-bottom: 20px;
+  border-top: #0084f8 3px solid;
+  border-bottom: #0084f8 3px solid;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .country__image--Ethiopia {
+
     height: 500px;
     width: 100%;
     /* background-color: grey; */
     background: url(/images/Haile.jpg);
 }
+=======
+  height: 500px;
+  width: 100%;
+  /* background-color: grey; */
+  background: url(/images/Haile.jpg);
+}
+
+
 .country__image ireland {
-    height: 500px;
-    width: 100%;
-    /* background-color: grey; */
-    background: url(/images/ireland_background.jpg);
-  
-    margin-bottom: 20px;
-    border-top: #0084f8 3px solid;
-    border-bottom: #0084f8 3px solid;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 500px;
+  width: 100%;
+  /* background-color: grey; */
+  background: url(/images/ireland_background.jpg);
+
+  margin-bottom: 20px;
+  border-top: #0084f8 3px solid;
+  border-bottom: #0084f8 3px solid;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card-set {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    height: 30%;
-    margin-inline: 5%;
-    margin-bottom: 40px;
-    margin-top: 20px;
-    margin-right: 12px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  height: 30%;
+  margin-inline: 5%;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-right: 12px;
 }
 
 .card-set__label {
-    writing-mode: tb-rl;
-    transform: rotate(190deg);
-    text-align: center;
-    font-style: italic;
+  writing-mode: tb-rl;
+  transform: rotate(190deg);
+  text-align: center;
+  font-style: italic;
+}
+
+.card {
+  width: 24%;
+  /* margin: auto; */
+  height: 550px;
+  border-radius: 15px;
+  border: solid 3px #ff8576;
+  background-color: white;
+  animation: 4s swivel infinite;
 }
 
 .card:hover {
-    transform: translateY(-5px) scale(1.005) translateZ(0);
-    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.75);
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.75);
 }
 
 /* COUNTRY SECTION  */
@@ -243,87 +264,162 @@ h3 {
 /* FOOTER SECTION  */
 
 .copyright {
-    text-align: center;
+  text-align: center;
 }
 
 /* MISCELANEOUS */
 
 .horizontal-line {
-    width: 100%;
-    height: 4px; /* change this to make line thicker */
-    background-color: #0084f8;
+  width: 100%;
+  height: 4px; /* change this to make line thicker */
+  background-color: #0084f8;
 }
 
 /* CARD */
 
 .card {
-    background-color: lightcyan;
-    margin: 3.5em;
-    max-width: 482px;
-    border-radius: 14px;
-    margin-bottom: 20px;
-    width: 75%;
-    height: 550px;
-    border: solid 3px #ff8576;
+  background-color: lightcyan;
+  margin: 3.5em;
+  max-width: 482px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  width: 75%;
+  height: 550px;
+  border: solid 3px #ff8576;
 }
 
 .card ul {
-    list-style-type: none;
-    padding: 0.5em;
-    margin: 0.2em;
-    font-size: 0.8em;
+  list-style-type: none;
+  padding: 0.5em;
+  margin: 0.2em;
+  font-size: 0.8em;
 }
 
 .card:hover {
-    transform: translateY(-5px) scale(1.005) translateZ(0);
-    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.75);
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.75);
 }
 
 .card-image {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    width: 100%;
-    height: 282px;
-    overflow: hidden;
-    object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 282px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.card-image {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 282px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+/* ABOUT SECTION  */
+
+.about {
+  height: 600px;
+}
+
+.about_content {
+  width: 400px;
+  height: 200px;
+  text-align: left;
+  margin: auto;
+  font-size: 1.5em;
 }
 
 .card-name {
-    text-align: center;
-    text-decoration: none;
+  text-align: center;
+  text-decoration: none;
 }
-
 .card-details {
+
     text-decoration: none;
     color: black;
 }  
-.ethiopia-landmarks card-set {
-    color: #58f186;
+=======
+  text-decoration: none;
+  color: black;
 }
-.copyright {
-  background-color: #001b36;
-  padding-top: 135px;
-  }
+
+.ethiopia-landmarks card-set {
+  color: #58f186;
+}
 .card h4 {
-    font-size: 22px;
-    margin-top: 2px;
-    margin-bottom: 10px;
+  font-size: 22px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+.card h4 {
+  font-size: 22px;
+  margin-top: 2px;
+  margin-bottom: 10px;
 }
 
 .card a:link {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .card a:visited {
-    color: #001b36;
-    font-family: "Open Sans", serif;
+  color: #001b36;
+  font-family: "Open Sans", serif;
 }
 
 .card li {
-    margin-block: 10px;
+  margin-block: 10px;
 }
 
 .country__france {
-    background: url(/scripts/France/imagesFrance/backgrounds.jpg);
+  background: url(/scripts/France/imagesFrance/backgrounds.jpg);
+}
+
+.copyright {
+  background-color: #001b36;
+  padding-top: 135px;
+}
+
+/* FOOTER SECTION  */
+
+footer {
+  background-color: #001b36;
+  height: 250px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-contact img {
+  width: 250px;
+  height: 250px;
+}
+
+.copyright {
+  background-color: #001b36;
+  padding-top: 135px;
+}
+
+.copyright p {
+  color: white;
+}
+
+.contact {
+  color: white;
+  padding-top: 25px;
+}
+
+.contact a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.contact a:visited {
+  color: white;
+  text-decoration: none;
 }

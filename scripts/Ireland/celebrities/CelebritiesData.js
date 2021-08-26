@@ -6,7 +6,7 @@ const celebrityCollection = [
     {
         name: "Conor Mcgregor",
         occupation: "Mixed Martial Artist",
-        description: "Conor Anthony McGregor is an Irish mixed martial artist, boxer, and businessman. He is a former Ultimate Fighting Championship featherweight and lightweight double-champion. ",
+        description: "Conor Anthony McGregor is an Irish mixed martial artist, boxer, and businessman. He is a former Ultimate Fighting Championship featherweight. ",
         externalLink: "https://conormcgregor.com/",
         image: "conor-mcgregor.jpg",
     },
@@ -20,7 +20,7 @@ const celebrityCollection = [
     {
         name: "Liam Neeson",
         occupation: "Actor",
-        description: "William John Neeson OBE is an actor from Northern Ireland. He has been nominated for several awards, including an Academy Award for Best Actor, a BAFTA Award for Best Actor in a Leading Role, and three Golden Globe Awards for Best Actor in a Motion Picture Drama. ",
+        description: "William John Neeson OBE is an actor from Northern Ireland. He has been nominated for several awards. ",
         externalLink: "https://en.wikipedia.org/wiki/Liam_Neeson",
         image: "liam-neeson.jpg",
     },
