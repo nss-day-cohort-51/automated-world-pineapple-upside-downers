@@ -205,6 +205,16 @@ h3 {
     background-size: cover;
 }
 
+.card {
+    width: 35%;
+    /* margin: auto; */
+    height: 550px;
+    border-radius: 15px;
+    border: solid 3px #ff8576;
+    background-color: white;
+    animation: 4s swivel infinite;
+}
+
 .card-set {
     display: flex;
     flex-flow: row;
@@ -220,16 +230,6 @@ h3 {
     transform: rotate(190deg);
     text-align: center;
     font-style: italic;
-}
-
-.card {
-    width: 24%;
-    /* margin: auto; */
-    height: 550px;
-    border-radius: 15px;
-    border: solid 3px #ff8576;
-    background-color: white;
-    animation: 4s swivel infinite;
 }
 
 .card:hover {
