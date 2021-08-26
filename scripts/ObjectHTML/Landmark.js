@@ -1,5 +1,5 @@
 export const Landmark = (landmarkbObj) => {
-    return `<div class="card"><a href="${landmarkbObj.externalLink}">
+    return `<div class="card"><a href="${landmarkbObj.externalLink}" target="_blank">
     <div><img class="card-image" src="images/${landmarkbObj.image}" /></div>
     <h4 class="card-name">${landmarkbObj.name}</h4>
     <ul>

@@ -199,7 +199,7 @@ h3 {
     width: 100%;
     /* background-color: grey; */
     background: url(/images/Haile.jpg);
-
+}
 .country__image ireland {
     height: 500px;
     width: 100%;
@@ -296,6 +296,7 @@ h3 {
 .card-details {
     text-decoration: none;
     color: black;
+}  
 .ethiopia-landmarks card-set {
     color: #58f186;
 }
