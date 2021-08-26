@@ -51,10 +51,11 @@ html {
 /* HEADER SECTION  */
 header {
     background-color: #001b36;
-    height: 200px;
+    height: 250px;
 }
 
 header h1 {
+    padding-top: 25px;
     text-align: center;
     color: white;
     font-size: 2.75em;
@@ -98,22 +99,20 @@ li a:visited {
     color: white;
 }
 
-li a:hover {
-    /* text-shadow: black; */
-}
-
-.logo {
+.logo img {
     width: 200px;
     height: 198px;
-    background-color: white;
 }
 
 /* QUOTE SECTION  */
-
 .quote {
-    height: 400px;
-
-    /* margin-bottom: 30px; */
+    height: 325px;
+    background-image: url(/images/vacation.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1px;
+    padding-top: 35px;
+    padding-bottom: 55px;
 }
 
 .quote span {
@@ -121,9 +120,12 @@ li a:hover {
     justify-content: center;
     width: 25%;
     margin: auto;
-    padding-top: 50px;
+    padding: 25px;
     font-size: 2em;
     font-style: italic;
+    background-color: white;
+    border-radius: 15px;
+    border: #001b36 2px solid;
 }
 /* MAIN SECTION */
 

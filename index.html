@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>Nashville Software School</title>
-        <link rel="stylesheet" href="./styles/main.css" />
-    </head>
-    
-    <body>
-        <!-- HEADER SECTION  -->
-        <header>
-            <nav class="nav">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#ethiopia">Ethiopia</a></li>
-                    <li><a href="#france">France</a></li>
-                    <li><a href="#indonesia">Indonesia</a></li>
-                    <li><a href="#ireland">Ireland</a></li>
-                    <li>About</li>
-                    <li>Contact Us</li>
-                </ul>
-            </nav>
-            <div class="header-content">
-                <div class="logo"><img src="" alt="Logo" /></div>
-                <div class="nav-title">
-                    <h1>Pineapple Expeditions</h1>
-                </div>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Pineapple Expidition</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/main-logo.png"/>
+    <link rel="stylesheet" href="./styles/main.css" />
+</head>
+
+<body>
+    <!-- HEADER SECTION  -->
+    <header id="head-of-page">
+        <nav class="nav">
+            <ul>
+                <li><a href="#head-of-page">Home</a></li>
+                <li><a href="#ethiopia">Ethiopia</a></li>
+                <li><a href="#france">France</a></li>
+                <li><a href="#indonesia">Indonesia</a></li>
+                <li><a href="#ireland">Ireland</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#about-section">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <div class="logo"><img src="/images/main-logo.png" alt="Logo" /></div>
+            <div class="nav-title">
+                <h1>Pineapple Expeditions</h1>
             </div>
         </div>
     </header>
@@ -186,34 +187,66 @@
                         </div>
                     </section>
 
-                </section>
-                <div class="horizontal-line"></div>
-                <section class="country" id="ireland">
-                    <h3>Ireland</h3>
-                </section>
-                <div class="horizontal-line"></div>
-                <section class="about">
-                    <h3>About</h3>
-                </section>
-            </main>
+            </section>
+<!-- IRELAND SECTION  -->
+<div class="horizontal-line"></div>
+        <main id="container">
+            <section class="country" id="ireland">
+                <div class="country__header">
+                    <h3>IRELAND</h3>
+                </div>
+                <div class="country__quote">
+                    <p>
+                        The Land of Ireland, andds fasdf aopsdf asdf japosdijf
+                        psaidjf pasdijf asdf
+                    </p>
+                </div>
+                <div class="country__image ireland parallax">
+                    <!-- <img /> -->
+                </div>
+                <section class="ireland__landmarks">
+                    <div class="ireland-landmarks card-set">
+                        <div class="card-set__label"><h3>Landmarks</h3></div>
+                    </div>
+                    <div class="ireland-celebrities card-set">
+                        <div class="card-set__label"><h3>Celelbrities</h3></div>
 
-            <footer>
-                <div class="footer-contact">
-                    <div>
-                        <img src="" alt="Logo" />
                     </div>
-                    <div class="contact">
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                        <p></p>
+                    <div class="ireland-cities card-set">
+                        <div class="card-set__label"><h3>Cities</h3></div>
+
                     </div>
+                </section>
+            </section>
+            <div class="horizontal-line"></div>
+            <section class="about" id="about-section">
+                <h3>About Us</h3>
+                <div class="about_content">
+                    <p>Pineapple Expidition</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-contact">
+                <div><a href="#head-of-page">
+                    <img src="/images/logo.png" alt="Logo" />
+                </a>
                 </div>
                 <div class="copyright">
-                    <p>&copy;2021 Copyright</p>
+                    <p>&copy;2021 Copyright Pineapple Expeditions, LLC</p>
                 </div>
-            </footer>
-            <script type="module" src="./scripts/main.js"></script>
-</body>
-
+                <div class="contact">
+                    <h4>Contact Us</h4>
+                    <p>123 Street Blvd</p>
+                    <p>Nashville, TN 37216</p>
+                    <p><a href="mailto:email@gmail.com">email@gmail.com</a></p>
+                    <p>615-123-4567</p>
+                </div>
+                
+            </div>
+            
+        </footer>
+        <script type="module" src="./scripts/main.js"></script>
+    </body>
 </html>
