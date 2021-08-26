@@ -1,3 +1,7 @@
+export const returnCelebrityCollection = () => {
+    return celebrityCollection;
+};
+
 const celebrityCollection = [
     {
         name: "Conor Mcgregor",
