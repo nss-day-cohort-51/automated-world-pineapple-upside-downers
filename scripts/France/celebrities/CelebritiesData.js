@@ -1,10 +1,29 @@
 const celebrityCollection = [
     {
-        name: "Maitre",
-        occupation: "undefined",
+        name: "Omar",
+        occupation: "Actor",
         description: "Description here",
         externalLink: "example.html",
-        image: "example.jpg",
+        image: "Omar.jpeg",
+    },
+
+    {
+        name: "Maitre Gims",
+        occupation: "Singer",
+        description: "Description here",
+        externalLink: "example.html",
+        image: "Maître_Gims_Cannes_2016.jpeg",
+    },
+
+
+
+
+    {
+        name: "Eva",
+        occupation: "Actress",
+        description: "Description here",
+        externalLink: "example.html",
+        image: "eva.jpg",
     },
 ];
 
@@ -16,13 +35,15 @@ export const celebrityPops = () =>
 
 export const templatesOfCeleb = (cele) =>
 { 
-  return  `<div>${cele.image}</div>
-    <p>${cele.name}</p>
-    <p>${cele.occupation}</p>
-    <p>${cele.description}</p>
-    <p>${cele.externalLink}</p>
-
-    `
+  return  `<div class="card"><a href="${cele.externalLink}">
+  <div><img class="card-image" src="scripts/France/imagesFrance/${cele.image}" /></div>
+  <h4 class="card-name">${cele.name}</h4>
+  <ul>
+      <li class="card-details">Occupation: ${cele.occopation}</li>
+      <li class="card-details">${cele.discripition}</li>        
+  </ul>
+</a>
+</div>`;
 }
 
 
