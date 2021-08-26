@@ -181,36 +181,35 @@ h3 {
   position: sticky;
   top: -1px;
 }
-.country__image {
-  height: 500px;
-  width: 100%;
-  /* background-color: grey; */
-  background: url(/images/mar.jpg);
 
-  margin-bottom: 20px;
-  border-top: #0084f8 3px solid;
-  border-bottom: #0084f8 3px solid;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.country__image--ethiopia {
+    height: 500px;
+    width: 100%;
+    background: url(/images/ethiopia.jpg);
+    margin-bottom: 20px;
+    border-top: #0084f8 3px solid;
+    border-bottom: #0084f8 3px solid;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .country__image ireland {
-  height: 500px;
-  width: 100%;
-  /* background-color: grey; */
-  background: url(/images/ireland_background.jpg);
-
-  margin-bottom: 20px;
-  border-top: #0084f8 3px solid;
-  border-bottom: #0084f8 3px solid;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
+    height: 500px;
+    width: 100%;
+    /* background-color: grey; */
+    background: url(/images/ireland_background.jpg);
+  
+    margin-bottom: 20px;
+    border-top: #0084f8 3px solid;
+    border-bottom: #0084f8 3px solid;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
 .card-set {
   display: flex;
   flex-flow: row;
@@ -322,7 +321,9 @@ footer {
   width: 250px;
   height: 250px;
 }
-
+.ethiopia-landmarks card-set {
+    color: #58f186;
+}
 .copyright {
   background-color: #001b36;
   padding-top: 135px;
