@@ -346,3 +346,11 @@ footer {
   color: white;
   text-decoration: none;
 }
+
+
+
+
+.country__france
+{
+    background: url(/scripts/France/imagesFrance/backgrounds.jpg);
+}
