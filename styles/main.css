@@ -118,7 +118,7 @@ li a:visited {
 .quote span {
     display: flex;
     justify-content: center;
-    width: 25%;
+    width: 30%;
     margin: auto;
     padding: 25px;
     font-size: 2em;
@@ -199,6 +199,7 @@ h3 {
     width: 100%;
     /* background-color: grey; */
     background: url(/images/Haile.jpg);
+}
 
 .country__image ireland {
     height: 500px;
@@ -296,7 +297,9 @@ h3 {
 .card-details {
     text-decoration: none;
     color: black;
-.ethiopia-landmarks card-set {
+}
+.ethiopia-landmarks card-set 
+{
     color: #58f186;
 }
 .copyright {
