@@ -3,8 +3,8 @@ export const Landmark = (landmarkbObj) => {
     <div><img class="card-image" src="images/${landmarkbObj.image}" /></div>
     <h4 class="card-name">${landmarkbObj.name}</h4>
     <ul>
-        <li class="card-details">Occupation: ${landmarkbObj.occopation}</li>
-        <li class="card-details">${landmarkbObj.discripition}</li>        
+        <li class="card-details">Established: ${landmarkbObj.yearCreated}</li>
+        <li class="card-details">${landmarkbObj.description}</li>        
     </ul>
 </a>
 </div>`;

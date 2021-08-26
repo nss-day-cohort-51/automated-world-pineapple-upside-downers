@@ -148,7 +148,7 @@ h3 {
     position: sticky;
     top: -1px;
     /* background: #58c2f1; */
-    background: rgba(0, 132, 248, 0.8);
+    background: rgba(0, 132, 248);
     border-bottom: 3px solid #0084f8;
     padding-top: 50px;
     z-index: 1;
@@ -175,11 +175,26 @@ h3 {
     position: sticky;
     top: -1px;
 }
-.country__image {
+.country__image--indonesia {
     height: 500px;
     width: 100%;
     /* background-color: grey; */
-    background: url(/images/mar.jpg);
+    background: url(/images/Indonesia.jpg);
+
+    margin-bottom: 20px;
+    border-top: #0084f8 3px solid;
+    border-bottom: #0084f8 3px solid;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.country__image--Ethiopia {
+    height: 500px;
+    width: 100%;
+    /* background-color: grey; */
+    background: url(/images/Haile.jpg);
 
     margin-bottom: 20px;
     border-top: #0084f8 3px solid;
@@ -268,4 +283,9 @@ h3 {
 
 .card-name {
     text-align: center;
+}
+
+.card-details {
+    text-decoration: none;
+    color: black;
 }
