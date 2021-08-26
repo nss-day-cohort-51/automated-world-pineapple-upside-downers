@@ -7,3 +7,4 @@ import "./Indonesia/main.js";
 // import "Tessema/main.js";
 
 // const landmarkCollection = returnLandmarkCollection();
+import "./Ethiopia/main.js"
