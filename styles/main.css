@@ -113,7 +113,10 @@ li a:hover {
   height: 325px;
   background-image: url(/images/vacation.jpeg);
   background-repeat: no-repeat;
-  background-position: auto;
+  background-size: cover;
+  background-position: 1px;
+  padding-top: 35px;
+  padding-bottom: 55px;
 }
 
 .quote span {
@@ -183,6 +186,21 @@ h3 {
   width: 100%;
   /* background-color: grey; */
   background: url(/images/mar.jpg);
+
+  margin-bottom: 20px;
+  border-top: #0084f8 3px solid;
+  border-bottom: #0084f8 3px solid;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.country__image ireland {
+  height: 500px;
+  width: 100%;
+  /* background-color: grey; */
+  background: url(/images/ireland_background.jpg);
 
   margin-bottom: 20px;
   border-top: #0084f8 3px solid;
@@ -273,6 +291,20 @@ h3 {
   text-align: center;
 }
 
+/* ABOUT SECTION  */
+
+.about {
+  height: 600px;
+}
+
+.about_content {
+  width: 400px;
+  height: 200px;
+  text-align: left;
+  margin: auto;
+  font-size: 1.5em;
+}
+
 /* FOOTER SECTION  */
 
 footer {
@@ -283,7 +315,7 @@ footer {
 .footer-contact {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .footer-contact img {
@@ -293,7 +325,7 @@ footer {
 
 .copyright {
   background-color: #001b36;
-  margin-top: -10px;
+  padding-top: 135px;
 }
 
 .copyright p {
@@ -302,4 +334,15 @@ footer {
 
 .contact {
   color: white;
+  padding-top: 25px;
+}
+
+.contact a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.contact a:visited {
+  color: white;
+  text-decoration: none;
 }
