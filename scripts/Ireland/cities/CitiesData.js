@@ -1,3 +1,7 @@
+export const returnCityCollection = () => {
+    return cityCollection
+};
+
 const cityCollection = [
     {
         name: "Dublin",
