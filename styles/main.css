@@ -272,3 +272,34 @@ h3 {
 .card-name {
   text-align: center;
 }
+
+/* FOOTER SECTION  */
+
+footer {
+  background-color: #001b36;
+  height: 250px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-contact img {
+  width: 250px;
+  height: 250px;
+}
+
+.copyright {
+  background-color: #001b36;
+  margin-top: -10px;
+}
+
+.copyright p {
+  color: white;
+}
+
+.contact {
+  color: white;
+}
