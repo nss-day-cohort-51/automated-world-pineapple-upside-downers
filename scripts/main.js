@@ -7,6 +7,7 @@ import "./Indonesia/main.js";
 
 // const landmarkCollection = returnLandmarkCollection();
 
+
 //this is quotes being displayed
 import { loopThrought } from "./France/quotes.js";
 
@@ -32,4 +33,7 @@ landOfFrance()
 
 
 
+
+
+import "./Ethiopia/main.js"
 
