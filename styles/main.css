@@ -175,12 +175,11 @@ h3 {
     position: sticky;
     top: -1px;
 }
-.country__image {
+
+.country__image--ethiopia {
     height: 500px;
     width: 100%;
-    /* background-color: grey; */
-    background: url(/images/mar.jpg);
-
+    background: url(/images/ethiopia.jpg);
     margin-bottom: 20px;
     border-top: #0084f8 3px solid;
     border-bottom: #0084f8 3px solid;
@@ -268,4 +267,7 @@ h3 {
 
 .card-name {
     text-align: center;
+}
+.ethiopia-landmarks card-set {
+    color: #58f186;
 }
