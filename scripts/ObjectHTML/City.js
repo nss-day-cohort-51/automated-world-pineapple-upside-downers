@@ -1,5 +1,5 @@
 export const City = (cityObj) => {
-    return `<div class="card"><a href="${cityObj.externalLink}">
+    return `<div class="card"><a href="${cityObj.externalLink}" target="_blank">
     <div><img class="card-image" src="images/${cityObj.image}" /></div>
     <h4 class="card-name">${cityObj.name}</h4>
     <ul>
