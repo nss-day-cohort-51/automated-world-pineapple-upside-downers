@@ -6,7 +6,7 @@ const landmarkCollection = [
             "Locally nicknamed La dame de fer (French for Iron Lady), it was constructed from 1887 to 1889 as the entrance to the 1889 World's Fair.",
 
         externalLink: "<a href=https://en.wikipedia.org/wiki/Eiffel_Tower></a>",
-        image: "around-the-eiffel-tower.jpg",
+        image: "arc.jpg",
     },
 
     {
