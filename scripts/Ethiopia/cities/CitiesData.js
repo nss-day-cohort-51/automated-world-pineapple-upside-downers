@@ -11,7 +11,7 @@ const cityCollection = [
     {
         name: "Addis Ababa",
         population: 5005524,
-        description: "Capital City of Ethiopia and It is where the African Union headquartered and It also hosts the headquarters of the United Nations Economic Commission for Africa (ECA)",
+        description: "Capital City of Ethiopia and It is where the African Union headquartered.",
         externalLink: "https://en.wikipedia.org/wiki/Addis_Ababa",
         image: "addis.jpg",
 
@@ -29,7 +29,7 @@ const cityCollection = [
     {
         name: "Bahir Dar",
         population: 168899,
-        description: "Bahir Dar is one of the leading tourist destinations in Ethiopia, with a variety of attractions in the nearby Lake Tana and Blue Nile river.",
+        description: "Bahir Dar is one of the leading tourist destinations in Ethiopia, nearby Lake Tana and Blue Nile river.",
         externalLink: "https://en.wikipedia.org/wiki/Bahir_Dar",
         image: "bahi.jpg",
 

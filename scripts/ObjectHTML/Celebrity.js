@@ -7,5 +7,5 @@ export const Celebrity = (celebObj) => {
         <li class="card-details">${celebObj.description}</li>        
     </ul>
 </a>
-</div>`;
+</div>`
 };
