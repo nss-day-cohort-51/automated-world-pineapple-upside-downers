@@ -1,22 +1,22 @@
 const quotes = 
 [
     {
-        quote:"<span>Lorem ipsum dolor sit amet consectetur adipisicing elit Distinctio explicabo, incidunt omnis atque, pariatur mollitia a quasi ex nam architecto iste alias asperiores  <br />-alias asperiores &#x1F641;</span>"
+        quote:"<span>“And then there is the most dangerous risk of all — the risk of spending your life not doing what you want on the bet you can buy yourself the freedom to do it later.”</br>– Randy Komisar; 👨‍✈️</span>"
     },
 
     {
-        quote:"<span>Lorem ipsum dolor sit amet consectetur adipisicing elit Distinctio explicabo, incidunt omnis atque, pariatur mollitia a quasi ex nam architecto iste alias asperiores  <br />-alias asperiores &#x1F64F</span>"
+        quote:"<span>“The most beautiful in the world is, of course, the world itself.” 😍</span>"
     },
 
 
 
     {
-        quote:"<span>Lorem ipsum dolor sit amet consectetur adipisicing elit Distinctio explicabo, incidunt omnis atque, pariatur mollitia a quasi ex nam architecto iste alias asperiores  <br />-alias asperiores &#x1F680;</span>"
+        quote:"<span>Traveling is a brutality. It forces you to trust strangers and to lose sight of all that familiar comforts of home and friends. You are constantly off balance.🌍</span>"
     },
 
 
     {
-        quote:"<span>Lorem ipsum dolor sit amet consectetur adipisicing elit Distinctio explicabo, incidunt omnis atque, pariatur mollitia a quasi ex nam architecto iste alias asperiores  <br />-alias asperiores &#x1F681;</span>"
+        quote:"<span>Do not follow where the path may lead. Go instead where there is no path and leave a trail”🕺 </b>-Ralph Waldo Emerson</span>"
     }
 ]
 
@@ -48,7 +48,7 @@ export function loopThrought()
 
         setInterval( () => { getClass.innerHTML = quotes[indexCount].quote
                          
-                            indexCount = (indexCount+1)%4}, 4000
+                            indexCount = (indexCount+1)%4}, 6000
 
                     )
               
