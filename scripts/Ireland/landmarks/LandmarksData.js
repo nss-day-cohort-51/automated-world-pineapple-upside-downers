@@ -1,3 +1,5 @@
+
+
 export const returnLandmarkCollection = () => {
     return landmarkCollection;
 };
