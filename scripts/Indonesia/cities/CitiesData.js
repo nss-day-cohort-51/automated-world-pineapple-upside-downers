@@ -9,7 +9,7 @@ const cityCollection = [
         description:
             "The capital of the Indonesian province of East Java and the second-largest city in Indonesia",
         externalLink: "https://wiki2.org/en/Surabaya",
-        image: "///images/surabaya.jpg",
+        image: "surabaya.jpg",
     },
     {
         name: "Bekasi",
@@ -17,13 +17,13 @@ const cityCollection = [
         description:
             "A city in West Java, Indonesia, located on the eastern border of Jakarta. It serves as a commuter city within the Jakarta metropolitan area",
         externalLink: "https://wiki2.org/en/Bekasi",
-        image: "///images/bekasi.jpg",
+        image: "bekasi.jpg",
     },
     {
         name: "Jakarta",
         population: "10,562,088",
         description: "The Special Capital Region of Jakarta",
         externalLink: "https://wiki2.org/en/Jakarta",
-        image: "///images/jakarta.jpg",
+        image: "jakarta.jpg",
     },
 ];

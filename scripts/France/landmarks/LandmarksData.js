@@ -34,7 +34,7 @@ export const landmarks = () => {
 
 export const templateLands = (lan) => {
     return `<div class="card"><a href="${lan.externalLink}">
-   <div><img class="card-image" src="automated-world-pineapple-upside-downers/scripts/France/imagesFrance/${lan.image}" /></div>
+   <div><img class="card-image" src="scripts/France/imagesFrance/${lan.image}" /></div>
    <h4 class="card-name">${lan.name}</h4>
    <ul>
        <li class="card-details"><strong>Year Created</strong>: ${lan.yearCreated}</li>
