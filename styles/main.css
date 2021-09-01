@@ -111,7 +111,7 @@ li a:hover {
 /* QUOTE SECTION  */
 .quote {
     height: 325px;
-    background-image: url(///images/vacation.jpeg);
+    background-image: url(/automated-world-pineapple-upside-downers/images/vacation.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 1px;
@@ -185,7 +185,7 @@ h3 {
     height: 500px;
     width: 100%;
     /* background-color: grey; */
-    background: url(///images/Indonesia.jpg);
+    background: url(/automated-world-pineapple-upside-downers/images/Indonesia.jpg);
     /*       background: url(/automated-world-pineapple-upside-downers/images/ethiopia.jpg); */
 
     margin-bottom: 20px;
@@ -230,7 +230,7 @@ h3 {
     height: 500px;
     width: 100%;
     /* background-color: grey; */
-    background: url(/scripts/France/automated-world-pineapple-upside-downers/imagesFrance/backgrounds.jpg);
+    background: url(/automated-world-pineapple-upside-downers/scripts/France/imagesFrance/backgrounds.jpg);
 
     margin-bottom: 20px;
     border-top: #0084f8 3px solid;
