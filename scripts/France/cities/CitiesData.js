@@ -33,7 +33,7 @@ export const citiesBff = () => {
 
 export const templatecities = (cityIlove) => {
     return `<div class="card"><a href="${cityIlove.externalLink}">
-   <div><img class="card-image" src="scripts/France/automated-world-pineapple-upside-downers/imagesFrance/${cityIlove.image}" /></div>
+   <div><img class="card-image" src="automated-world-pineapple-upside-downers/scripts/France/imagesFrance/${cityIlove.image}" /></div>
    <h4 class="card-name">${cityIlove.name}</h4>
    <ul>
        <li class="card-details"><strong>Population</strong>: ${cityIlove.population}</li>
