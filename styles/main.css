@@ -282,6 +282,7 @@ h3 {
     border: solid 3px #ff8576;
     background-color: white;
     animation: 4s swivel infinite;
+    overflow: hidden;
 }
 
 .card:hover {
