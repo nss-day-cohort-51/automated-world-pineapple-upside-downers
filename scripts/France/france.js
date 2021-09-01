@@ -76,5 +76,5 @@ export function landOfFrance()
         noLandsString += templateLands(goodlands)
     }
 
-    accessLands.innerHTML +=noLandsString
+    accessLands.innerHTML += noLandsString
 }
