@@ -36,7 +36,7 @@ export const celebrityPops = () =>
 export const templatesOfCeleb = (cele) =>
 { 
   return  `<div class="card"><a href="${cele.externalLink}" target="_blank">
-  <div><img class="card-image" src="scripts/France/imagesFrance/${cele.image}" /></div>
+  <div><img class="card-image" src="scripts/France/automated-world-pineapple-upside-downers/imagesFrance/${cele.image}" /></div>
   <h4 class="card-name">${cele.name}</h4>
   <ul>
       <li class="card-details"><strong>Occupation</strong>: ${cele.occupation}</li>

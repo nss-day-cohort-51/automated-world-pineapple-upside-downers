@@ -111,7 +111,7 @@ li a:hover {
 /* QUOTE SECTION  */
 .quote {
     height: 325px;
-    background-image: url(./images/vacation.jpeg);
+    background-image: url(///images/vacation.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 1px;
@@ -185,8 +185,8 @@ h3 {
     height: 500px;
     width: 100%;
     /* background-color: grey; */
-    background: url(./images/Indonesia.jpg);
-    /*       background: url(/images/ethiopia.jpg); */
+    background: url(///images/Indonesia.jpg);
+    /*       background: url(/automated-world-pineapple-upside-downers/images/ethiopia.jpg); */
 
     margin-bottom: 20px;
     border-top: #0084f8 3px solid;
@@ -201,7 +201,7 @@ h3 {
     height: 500px;
     width: 100%;
     /* background-color: grey; */
-    background: url(/images/ethiopia.jpg);
+    background: url(/automated-world-pineapple-upside-downers/images/ethiopia.jpg);
     margin-bottom: 20px;
     border-top: #0084f8 3px solid;
     border-bottom: #0084f8 3px solid;
@@ -215,7 +215,7 @@ h3 {
     height: 500px;
     width: 100%;
     /* background-color: grey; */
-    background: url(/images/ireland_background.jpg);
+    background: url(/automated-world-pineapple-upside-downers/images/ireland_background.jpg);
 
     margin-bottom: 20px;
     border-top: #0084f8 3px solid;
@@ -230,7 +230,7 @@ h3 {
     height: 500px;
     width: 100%;
     /* background-color: grey; */
-    background: url(/scripts/France/imagesFrance/backgrounds.jpg);
+    background: url(/scripts/France/automated-world-pineapple-upside-downers/imagesFrance/backgrounds.jpg);
 
     margin-bottom: 20px;
     border-top: #0084f8 3px solid;
@@ -245,7 +245,7 @@ h3 {
     height: 500px;
     width: 100%;
     /* background-color: grey; */
-    background: url(/images/ireland.jpg);
+    background: url(/automated-world-pineapple-upside-downers/images/ireland.jpg);
 
     margin-bottom: 20px;
     border-top: #0084f8 3px solid;
@@ -404,7 +404,7 @@ h3 {
 }
 
 .country__france {
-    background: url(/scripts/France/imagesFrance/backgrounds.jpg);
+    background: url(/scripts/France/automated-world-pineapple-upside-downers/imagesFrance/backgrounds.jpg);
 }
 
 .copyright {
